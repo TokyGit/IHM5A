@@ -38,5 +38,5 @@
     <bean name="indexmController"
           class="org.springframework.web.servlet.mvc.ParameterizableViewController"
           p:viewName="indexm" />
-
+    
 </beans>

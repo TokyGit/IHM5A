@@ -10,6 +10,8 @@
 
     <body>
         <p>Hello! This is the default (or at least was) welcome page for a Spring Web MVC project.</p>
+        <%boolean etatCheckBox = request.getParameter( "cb_id" ) != null;%>
+        <p>checkbox=<%out.println(etatCheckBox); %></p>
         <p><i>To display a different welcome page for this project, modify</i>
             <tt>index.jsp</tt> <i>, or create your own welcome page then change
                 the redirection in</i> <tt>redirect.jsp</tt> <i>to point to the new

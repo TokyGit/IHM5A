@@ -10,6 +10,8 @@
 
     <body>
         <p>Hello! This is indexm.</p>
+               <input type="checkbox" name="frites" id="frites" /> <label for="frites">Frites</label><br />
+               <%boolean etatCheckBox = request.getParameter( "frites" ) != null;%>
         <p><i>To display a different welcome page for this project, modify</i>
             <tt>index.jsp</tt> <i>, or create your own welcome page then change
                 the redirection in</i> <tt>redirect.jsp</tt> <i>to point to the new
